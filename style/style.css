@@ -1,0 +1,168 @@
+.game{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: #B9BAA3;
+    width: 40%;
+}
+
+a, a:hover, a:visited a:active{
+    text-decoration: none;
+    color: #0A100D;
+}
+
+.outer_button{
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+    background-color: #A22C29;
+}
+
+.button:hover{
+    background-color: #631C18;
+}
+
+.game img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 512px;
+}
+
+.content{
+    background-color: #8A8C69;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+body{
+    background-color: #D6D5C9;
+    color: #0A100D;
+    text-align: center;
+    font-size: 145%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-size: 110%;
+}
+
+section {
+    text-align: center;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px #ecd7ba;
+    border: 2px solid #ecd7ba;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game--title {
+    font-size: 100px;
+    color: #0A100D;
+    margin: 10px auto;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: #11213a;
+    color: #04c0b2;
+}
+
+.game--status {
+    font-size: 50px;
+    color: #0A100D;
+    margin: 20px auto;
+}
+
+.game--restart {
+    background-color: #f7e4ac;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: #5586e2;
+    box-shadow: 2px 2px 2px 2px #d86c23;
+    border: 2px solid #d86c23;
+}
+
+.container{
+    display: flex;
+}
+.container .section{
+    width: 350px;
+    margin: 20px 50px;
+}
+.section .info{
+    background: rgb(10, 10, 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 80%;
+}
+.info span , .info h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px 10px;
+    font-family: sans-serif;
+    color: white;
+}
+.show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background : rgb(41, 40, 40);
+    height: 220px;
+}
+.show i{
+    font-size: 100px;
+    color: orange;
+}
+
+.selection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 100px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.selection button{
+    margin: 0 20px;
+    padding: 25px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background : rgb(41, 40, 40);
+    font-size: 33px;
+    color: orange;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#demo{
+    background-color: #0A100D;
+    color: white;
+}
+
+#demo2{
+    background-color: #0A100D;
+    color: white;
+}
